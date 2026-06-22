@@ -1,3 +1,20 @@
+'''
+Starting from rest a person pushes a 95-kg crate across a rough
+floor with a force given by 
+F=200e^(-0.15t)
+where F is in new
+tons and t is in seconds. The force decreases exponentially be
+cause the person tires. As long as the crate is moving a constant
+frictional force of 80 N opposes the motion. (a) How long after
+starting does the crate stop? (b) How far does it go? (c) How
+accurate are your results? (Try using the Euler method with an
+initial time interval of t 
+0.01 s. Repeat the process, but use
+a time interval of t 
+0.001 s. Compare the results to get an
+estimate of your accuracy.)
+'''
+
 import matplotlib.pyplot as plt
 import numpy as np
 
